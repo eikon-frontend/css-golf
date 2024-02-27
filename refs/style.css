@@ -39,3 +39,11 @@ body.ex2:after {
 body.ex3:after {
   background-image: url("images/3.png");
 }
+
+body.ci:after {
+  content: none;
+}
+
+body.ci img {
+  display: none;
+}

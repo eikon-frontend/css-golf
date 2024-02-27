@@ -1,0 +1,19 @@
+{
+  "name": "css-golf",
+  "version": "1.0.0",
+  "private": true,
+  "description": "",
+  "main": "private/test.js",
+  "scripts": {
+    "start": "npx serve",
+    "pretest": "npx playwright install --with-deps",
+    "test": "npx playwright test -c private/playwright.config.js",
+    "preci": "CI=true npx playwright install --with-deps",
+    "ci": "CI=true playwright test -c private/playwright.config.js"
+  },
+  "author": "tonifisler",
+  "devDependencies": {
+    "@playwright/test": "^1.41.2",
+    "@types/node": "^20.11.20"
+  }
+}

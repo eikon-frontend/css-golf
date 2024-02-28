@@ -40,6 +40,10 @@ body.ex3:after {
   background-image: url("images/3.png");
 }
 
+body.ex4:after {
+  background-image: url("images/4.png");
+}
+
 body.ci:after {
   content: none;
 }
